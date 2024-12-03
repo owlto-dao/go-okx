@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/iaping/go-okx/examples/rest"
-	"github.com/iaping/go-okx/rest/api/wallet"
+	"github.com/owlto-dao/go-okx/examples/rest"
+	"github.com/owlto-dao/go-okx/rest/api/wallet"
 	"log"
 )
 

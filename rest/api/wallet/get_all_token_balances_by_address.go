@@ -1,6 +1,6 @@
 package wallet
 
-import "github.com/iaping/go-okx/rest/api"
+import "github.com/owlto-dao/go-okx/rest/api"
 
 func NewGetAllTokenBalancesByAddr(param *GetAllTokenBalancesByAddrParam) (api.IRequest, api.IResponse) {
 	return &api.Request{
