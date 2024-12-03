@@ -4,7 +4,7 @@ import "github.com/owlto-dao/go-okx/rest/api"
 
 func NewGetAllTokenBalancesByAddr(param *GetAllTokenBalancesByAddrParam) (api.IRequest, api.IResponse) {
 	return &api.Request{
-		Path:   "/api/v5/wallet/asset/total-value-by-address",
+		Path:   "/api/v5/wallet/asset/all-token-balances-by-address",
 		Method: api.MethodGet,
 		Param:  param,
 	}, &GetAllTokenBalancesByAddrResponse{}
