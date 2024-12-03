@@ -8,11 +8,7 @@ func NewGetSupportedChains() (api.IRequest, api.IResponse) {
 	return &api.Request{
 		Path:   "/api/v5/wallet/chain/supported-chains",
 		Method: api.MethodGet,
-		Param:  &GetSupportedChainsParam{},
 	}, &GetSupportedChainsResponse{}
-}
-
-type GetSupportedChainsParam struct {
 }
 
 type GetSupportedChainsResponse struct {
